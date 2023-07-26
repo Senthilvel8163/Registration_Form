@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        div{
+        height: 55px;
+        width: 55px;
+        border-style:dotted;
+        border-color: rgb(53, 30, 255);
+        padding: 25px;
+        margin-left: 20px;
+        margin-top: 10px;
+        border-radius: 0px;
+      }
+      form{
+        margin-top: 50px;
+        margin-left: -27px;
+      }
+    </style>
+  <div class="registration-form">
+    <h5>Registration Form</h5>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" >
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
